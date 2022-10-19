@@ -26,11 +26,11 @@
 
 		. += span_notice("It can access the following channels; [jointext(examine_text_list, ", ")].")
 
-/obj/item/encryptionkey/lastedict
-	name = "last syndicate encryption key"
+/obj/item/encryptionkey/syndicate
+	name = "syndicate encryption key"
 	icon_state = "edi_cypherkey"
 	channels = list(RADIO_CHANNEL_SYNDICATE = 1)
-	syndicate = TRUE//Signifies that it de-crypts Edict transmissions
+	syndicate = TRUE//Signifies that it de-crypts Syndicate transmissions
 
 /obj/item/encryptionkey/binary
 	name = "binary translator key"
@@ -117,7 +117,7 @@
 	icon_state = "cargo_cypherkey"
 	channels = list(RADIO_CHANNEL_SUPPLY = 1)
 
-/obj/item/encryptionkey/headset_salvage
+/obj/item/encryptionkey/headset_mining
 	name = "salvage radio encryption key"
 	icon_state = "salv_cypherkey"
 	channels = list(RADIO_CHANNEL_SUPPLY = 1, RADIO_CHANNEL_SCIENCE = 1)

@@ -38,8 +38,8 @@
 	desc = "A non-descript and slightly suspicious looking turtleneck with a pitch-black skirt."
 	greyscale_colors = "#333333#61466a#384339"
 
-/obj/item/clothing/under/tactical/purple
-	name = "purple sneaksuit"
+/obj/item/clothing/under/tactical/bloodred
+	name = "blood-red sneaksuit"
 	desc = "It still counts as stealth if there are no witnesses."
 	greyscale_config = null
 	greyscale_config_worn = null
@@ -51,9 +51,9 @@
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	can_adjust = FALSE
 
-/obj/item/clothing/under/tactical/purple/sleepytime
-	name = "purple pajamas"
-	desc = "Does the last syndicate dream of wild sheep?"
+/obj/item/clothing/under/tactical/bloodred/sleepytime
+	name = "red pajamas"
+	desc = "Do the syndicate dream of wild sheep?"
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 50, ACID = 40)
 
 /obj/item/clothing/under/tactical/tacticool

@@ -16003,7 +16003,7 @@
 /turf/open/floor/iron/white,
 /area/medical/medbay/aft)
 "gSs" = (
-/obj/effect/landmark/start/salvage_crew,
+/obj/effect/landmark/start/shaft_miner,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "gSw" = (
@@ -23559,7 +23559,7 @@
 /turf/open/floor/iron,
 /area/maintenance/port/fore)
 "kBw" = (
-/obj/structure/closet/wardrobe/salvagecrew,
+/obj/structure/closet/wardrobe/miner,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
@@ -28375,7 +28375,7 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/obj/effect/landmark/start/salvage_crew,
+/obj/effect/landmark/start/shaft_miner,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "new" = (
@@ -39444,7 +39444,7 @@
 /turf/open/floor/iron/dark,
 /area/maintenance/disposal/incinerator)
 "sse" = (
-/obj/effect/landmark/start/salvage_crew,
+/obj/effect/landmark/start/shaft_miner,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
@@ -45389,7 +45389,7 @@
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
 "vov" = (
-/obj/structure/closet/secure_closet/salvagecrew,
+/obj/structure/closet/secure_closet/miner,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "vow" = (

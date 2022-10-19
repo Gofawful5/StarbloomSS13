@@ -77,7 +77,7 @@
 		if(new_species_type == /datum/species/lizard)
 			shoes = null //digitigrade says no
 	if(regular_uniform)
-		uniform = /obj/item/clothing/under/rank/cargo/salvagecrew/explorer
+		uniform = /obj/item/clothing/under/rank/cargo/miner/explorer
 		if(prob(4))
 			belt = pick_weight(list(/obj/item/storage/belt/mining = 2, /obj/item/storage/belt/mining/alt = 2))
 		else if(prob(10))

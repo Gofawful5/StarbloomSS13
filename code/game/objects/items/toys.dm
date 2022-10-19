@@ -1571,7 +1571,7 @@
 	toysound = null
 
 /obj/item/toy/figure/salvage
-	name = "\improper Salvage Crew action figure"
+	name = "\improper Shaft Miner action figure"
 	icon_state = "miner"
 	toysay = "Threw the parts out!"
 

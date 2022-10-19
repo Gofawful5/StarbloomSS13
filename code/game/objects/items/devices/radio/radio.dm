@@ -69,7 +69,7 @@
 	var/translate_binary = FALSE
 	/// If true, can say/hear on the special CentCom channel.
 	var/independent = FALSE
-	/// If true, hears all well-known channels automatically, and can say/hear on the Edict channel.
+	/// If true, hears all well-known channels automatically, and can say/hear on the Syndicate channel.
 	var/syndicate = FALSE
 	/// associative list of the encrypted radio channels this radio is currently set to listen/broadcast to, of the form: list(channel name = TRUE or FALSE)
 	var/list/channels
@@ -141,9 +141,9 @@
 
 	add_radio(src, FREQ_COMMON)
 
-/obj/item/radio/proc/make_edict() // Turns normal radios into Edict radios!
+/obj/item/radio/proc/make_edict() // Turns normal radios into Syndicate radios!
 	qdel(keyslot)
-	keyslot = new /obj/item/encryptionkey/lastedict
+	keyslot = new /obj/item/encryptionkey/syndicate
 	syndicate = TRUE
 	recalculateChannels()
 
@@ -505,7 +505,7 @@
 
 /obj/item/radio/borg/syndicate
 	syndicate = TRUE
-	keyslot = new /obj/item/encryptionkey/lastedict
+	keyslot = new /obj/item/encryptionkey/syndicate
 
 /obj/item/radio/borg/syndicate/Initialize(mapload)
 	. = ..()

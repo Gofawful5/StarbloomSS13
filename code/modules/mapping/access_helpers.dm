@@ -350,12 +350,12 @@
 
 /obj/effect/mapping_helpers/airlock/access/any/supply/mining/get_access()
 	var/list/access_list = ..()
-	access_list += ACCESS_SALVAGECREW
+	access_list += ACCESS_SHAFTMINER
 	return access_list
 
 /obj/effect/mapping_helpers/airlock/access/any/supply/mining_station/get_access()
 	var/list/access_list = ..()
-	access_list += ACCESS_SALVAGECREW_STATION
+	access_list += ACCESS_SHAFTMINER_STATION
 	return access_list
 
 /obj/effect/mapping_helpers/airlock/access/any/supply/mineral_storage/get_access()
@@ -407,9 +407,9 @@
 	access_list += list(ACCESS_CONSERVATORS)
 	return access_list
 
-// -------------------- Edict access helpers
+// -------------------- Syndicate access helpers
 /obj/effect/mapping_helpers/airlock/access/any/syndicate
-	color = COLOR_SYNDICATE_VIOLET
+	color = COLOR_SYNDIE_RED
 
 /obj/effect/mapping_helpers/airlock/access/any/syndicate/general/get_access()
 	var/list/access_list = ..()
@@ -825,12 +825,12 @@
 
 /obj/effect/mapping_helpers/airlock/access/all/supply/mining/get_access()
 	var/list/access_list = ..()
-	access_list += ACCESS_SALVAGECREW
+	access_list += ACCESS_SHAFTMINER
 	return access_list
 
 /obj/effect/mapping_helpers/airlock/access/all/supply/mining_station/get_access()
 	var/list/access_list = ..()
-	access_list += ACCESS_SALVAGECREW_STATION
+	access_list += ACCESS_SHAFTMINER_STATION
 	return access_list
 
 /obj/effect/mapping_helpers/airlock/access/all/supply/mineral_storage/get_access()
@@ -850,7 +850,7 @@
 
 // -------------------- Syndicate access helpers
 /obj/effect/mapping_helpers/airlock/access/all/syndicate
-	color = COLOR_SYNDICATE_VIOLET
+	color = COLOR_SYNDIE_RED
 
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general/get_access()
 	var/list/access_list = ..()

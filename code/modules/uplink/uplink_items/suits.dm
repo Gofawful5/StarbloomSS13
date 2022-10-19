@@ -30,7 +30,7 @@
 
 /datum/uplink_item/suits/modsuit
 	name = "Syndicate MODsuit"
-	desc = "A heavily modified Scrapper Modsuit - put fear into your enemies with your mere presence! \
+	desc = "A heavily modified MODsuit - put fear into your enemies with your mere presence! \
 			Features armoring and a set of select modules to enhance your combat capabilities."
 	item = /obj/item/mod/control/pre_equipped/traitor
 	cost = 8

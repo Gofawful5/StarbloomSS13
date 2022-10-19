@@ -42,7 +42,7 @@
 	name = "Energy Sword"
 	desc = "The energy sword is an edged weapon with a blade of pure energy. The sword is small enough to be \
 			pocketed when inactive. Activating it produces a loud, distinctive noise. This particular model, \
-			whilst lacking more advanced features the Edict can provide, feasibly could be created on board \
+			whilst lacking more advanced features the Syndicate can provide, feasibly could be created on board \
 			the North Star alone - a fact you may do well to weigh on any potential questions."
 	progression_minimum = 20 MINUTES
 	item = /obj/item/melee/energy/sword/saber

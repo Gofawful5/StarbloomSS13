@@ -38,15 +38,15 @@
 	dying_key = DYE_REGISTRY_JUMPSKIRT
 	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
-/obj/item/clothing/under/rank/cargo/salvagecrew
+/obj/item/clothing/under/rank/cargo/miner
 	desc = "It's a snappy jumpsuit with a sturdy set of overalls. Remarkably clean for it's \
 	intended purposes."
-	name = "salvage crew jumpsuit"
+	name = "shaft miner jumpsuit"
 	icon_state = "salvage"
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 80, ACID = 0, WOUND = 10)
 	resistance_flags = NONE
 
-/obj/item/clothing/under/rank/cargo/salvagecrew/explorer
+/obj/item/clothing/under/rank/cargo/miner/explorer
 	desc = "A green uniform for operating in hazardous environments."
 	icon_state = "explorer"
 

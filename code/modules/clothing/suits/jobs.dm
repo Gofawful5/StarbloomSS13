@@ -217,13 +217,3 @@
 	desc = "Looks like someone skinned this blazer off some long extinct disco-animal. It has an enigmatic white rectangle on the back and the right sleeve."
 	icon_state = "jamrock_blazer"
 	inhand_icon_state = "jamrock_blazer"
-
-/obj/item/clothing/suit/unity
-	name = "unity coat"
-	desc = "A heavy coat, lined with fur - the height of luxury, aboard the North Star."
-	icon_state = "coat_unity"
-	inhand_icon_state = "coat_unity"
-
-/obj/item/clothing/suit/unity/armored
-	name = "armored unity coat"
-	armor = list(MELEE = 35, BULLET = 30, LASER = 30, ENERGY = 40, BOMB = 25, BIO = 0, FIRE = 50, ACID = 50, WOUND = 10)

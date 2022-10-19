@@ -11102,7 +11102,7 @@
 /turf/open/floor/iron,
 /area/security/checkpoint/supply)
 "bly" = (
-/obj/structure/closet/secure_closet/salvagecrew,
+/obj/structure/closet/secure_closet/miner,
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -33523,7 +33523,7 @@
 /turf/closed/wall/rust,
 /area/maintenance/starboard)
 "gMi" = (
-/obj/structure/closet/secure_closet/salvagecrew,
+/obj/structure/closet/secure_closet/miner,
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -47973,7 +47973,7 @@
 /turf/open/floor/plating,
 /area/cargo/warehouse)
 "lwd" = (
-/obj/structure/closet/wardrobe/salvagecrew,
+/obj/structure/closet/wardrobe/miner,
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -62703,7 +62703,7 @@
 /turf/open/floor/iron/dark,
 /area/service/kitchen)
 "qoD" = (
-/obj/structure/closet/secure_closet/salvagecrew,
+/obj/structure/closet/secure_closet/miner,
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -78752,7 +78752,7 @@
 	},
 /obj/effect/turf_decal/tile/yellow,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/landmark/start/salvage_crew,
+/obj/effect/landmark/start/shaft_miner,
 /turf/open/floor/iron,
 /area/cargo/miningoffice)
 "vBs" = (
@@ -83526,7 +83526,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/start/salvage_crew,
+/obj/effect/landmark/start/shaft_miner,
 /turf/open/floor/iron,
 /area/cargo/miningoffice)
 "xen" = (

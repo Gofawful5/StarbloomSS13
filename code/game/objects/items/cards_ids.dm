@@ -1115,15 +1115,15 @@
 	desc = "An ID straight from the Syndicate."
 	registered_name = "Syndicate"
 	registered_age = null
-	trim = /datum/id_trim/lastedict
+	trim = /datum/id_trim/syndicate
 	wildcard_slots = WILDCARD_LIMIT_SYNDICATE
 
 /obj/item/card/id/advanced/black/syndicate_command/crew_id
-	trim = /datum/id_trim/lastedict/robotics
+	trim = /datum/id_trim/syndicate/robotics
 
 /obj/item/card/id/advanced/black/syndicate_command/captain_id
 	name = "syndicate captain ID card"
-	trim = /datum/id_trim/lastedict/pilot
+	trim = /datum/id_trim/syndicate/pilot
 
 /obj/item/card/id/advanced/black/syndicate_command/captain_id/syndie_spare
 	name = "syndicate captain's spare ID"
@@ -1259,7 +1259,7 @@
 
 /obj/item/card/id/advanced/mining
 	name = "mining ID"
-	trim = /datum/id_trim/job/salvage_crew/spare
+	trim = /datum/id_trim/job/shaft_miner/spare
 
 /obj/item/card/id/advanced/highlander
 	name = "highlander ID"

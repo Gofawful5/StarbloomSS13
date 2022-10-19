@@ -227,7 +227,7 @@ export class Uplink extends Component<{}, UplinkState> {
       <Window
         width={820}
         height={580}
-        theme="lastedict">
+        theme="syndicate">
         <Window.Content scrollable={currentTab !== 0 || !has_objectives}>
           <Stack vertical fill>
             <Stack.Item>

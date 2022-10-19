@@ -144,7 +144,7 @@
 
 /datum/opposing_force_equipment/gear/jetpack_mod
 	item_type = /obj/item/mod/module/jetpack/advanced
-	description = "A jetpack usually reserved for Edict MODsuits, this jetpack had the safety limiters removed, allowing it to move much faster in space."
+	description = "A jetpack usually reserved for Syndicate MODsuits, this jetpack had the safety limiters removed, allowing it to move much faster in space."
 
 /datum/opposing_force_equipment/gear/energyshield_mod
 	item_type = /obj/item/mod/module/energy_shield

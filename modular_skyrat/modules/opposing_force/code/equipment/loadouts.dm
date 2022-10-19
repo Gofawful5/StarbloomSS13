@@ -13,8 +13,8 @@
 
 /datum/opposing_force_equipment/loadout/insurgent
 	item_type = /obj/item/storage/box/edict_kit/insurgent
-	name = "Syndicate - Insurgent Kit"
-	description = "A box containing a purple MODSuit, among other clothing, to properly embody the Edict's ideals. \
+	name = "Insurgent Kit"
+	description = "A box containing a blood-red MODSuit, among other clothing, to properly embody the Syndicate's ideals. \
 	Does not come with any sort of weaponry."
 
 /* // DISABLED - WE HAVEN'T ACTUALLY RE-IMPLEMENTED CONTRACTORS THIS BOX IS FUCKIN' EMPTY LMAO

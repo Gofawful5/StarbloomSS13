@@ -34025,7 +34025,7 @@
 /turf/open/floor/carpet,
 /area/commons/dorms)
 "kQP" = (
-/obj/structure/closet/secure_closet/salvagecrew,
+/obj/structure/closet/secure_closet/miner,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
@@ -34873,7 +34873,7 @@
 "ldC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/landmark/start/salvage_crew,
+/obj/effect/landmark/start/shaft_miner,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "ldE" = (
@@ -40300,7 +40300,7 @@
 /turf/open/floor/iron/dark,
 /area/security/interrogation)
 "nev" = (
-/obj/structure/closet/wardrobe/salvagecrew,
+/obj/structure/closet/wardrobe/miner,
 /obj/effect/turf_decal/tile/brown/fourcorners,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
@@ -45474,7 +45474,7 @@
 "oXK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/start/salvage_crew,
+/obj/effect/landmark/start/shaft_miner,
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
@@ -66886,7 +66886,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/landmark/start/salvage_crew,
+/obj/effect/landmark/start/shaft_miner,
 /turf/open/floor/iron,
 /area/cargo/miningdock/cafeteria)
 "wTS" = (

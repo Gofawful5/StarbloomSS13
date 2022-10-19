@@ -45283,14 +45283,14 @@
 /turf/open/floor/iron,
 /area/engineering/atmospherics_engine)
 "mNF" = (
-/obj/structure/closet/secure_closet/salvagecrew,
+/obj/structure/closet/secure_closet/miner,
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
 /area/cargo/miningoffice)
 "mNJ" = (
-/obj/structure/closet/secure_closet/salvagecrew,
+/obj/structure/closet/secure_closet/miner,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/iron/dark/side{
 	dir = 1
@@ -45392,7 +45392,7 @@
 /turf/open/floor/iron/dark,
 /area/hallway/floor2/fore)
 "mPg" = (
-/obj/structure/closet/secure_closet/salvagecrew,
+/obj/structure/closet/secure_closet/miner,
 /obj/machinery/light/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/newscaster/directional/north,
@@ -47907,7 +47907,7 @@
 /turf/open/floor/eighties,
 /area/commons/dorms/room2)
 "nuX" = (
-/obj/effect/landmark/start/salvage_crew,
+/obj/effect/landmark/start/shaft_miner,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -54859,7 +54859,7 @@
 /turf/open/floor/iron/dark/red/side,
 /area/security/brig)
 "pvm" = (
-/obj/item/clothing/under/tactical/purple/sleepytime,
+/obj/item/clothing/under/tactical/bloodred/sleepytime,
 /obj/structure/table/reinforced/plasmarglass,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/purple,
@@ -64476,7 +64476,7 @@
 	},
 /area/faction/conserve_recycling)
 "snN" = (
-/obj/effect/landmark/start/salvage_crew,
+/obj/effect/landmark/start/shaft_miner,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
 	dir = 4

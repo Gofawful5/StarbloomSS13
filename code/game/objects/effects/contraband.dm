@@ -225,7 +225,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	icon_state = "lusty_xenomorph"
 
 /obj/structure/sign/poster/contraband/edict_recruitment
-	name = "Edict Recruitment"
+	name = "Syndicate Recruitment"
 	desc = "See the galaxy! Break the cage! Join today!"
 	icon_state = "edict_recruitment"
 
@@ -318,10 +318,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	also proclaiming leaving to be detrimental to the health of all onboard."
 	icon_state = "kss13"
 
-/obj/structure/sign/poster/contraband/rebels_unite
-	name = "Rebels Unite"
-	desc = "A poster urging the viewer to rebel against The Unity."
-	icon_state = "rebels_unite"
 
 /obj/structure/sign/poster/contraband/c20r
 	// have fun seeing this poster in "spawn 'c20r'", admins...
@@ -436,7 +432,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	icon_state = "here_forever"
 
 /obj/structure/sign/poster/contraband/free_key
-	name = "Free Edict Encryption Key"
+	name = "Free Syndicate Encryption Key"
 	desc = "\"No longer needed - Unity threw my brain in the washer! For a loving home.\""
 	icon_state = "free_key"
 
@@ -560,10 +556,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	desc = "A poster glorifying the North Star's security force."
 	icon_state = "here_for_your_safety"
 
-/obj/structure/sign/poster/official/unity_logo
-	name = "\improper Unity logo"
-	desc = "A poster depicting the Unity logo."
-	icon_state = "unity_logo"
 
 /obj/structure/sign/poster/official/cleanliness
 	name = "Cleanliness"
@@ -780,36 +772,5 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	desc = "This informational poster uses Safety Moth™ to tell the viewer to hide in lockers when the Supermatter Crystal has delaminated, to prevent hallucinations. Evacuating might be a better strategy."
 	icon_state = "aspev_delam"
 //End of AspEv posters
-
-//Unity Propaganda
-
-/obj/structure/sign/poster/official/homeguard_xeno
-	name = "Unity Propaganda - Edict Guard"
-	desc = "This entirely unbiased piece of Unity propaganda informs the reader that the Home Guard are Edict supporting terrorists, and to report Home Guard members to Unity officers at once."
-	icon_state = "xeno_en"
-/obj/structure/sign/poster/official/homeguard_xeno/cn
-	icon_state = "xeno_cn"
-
-/obj/structure/sign/poster/official/unity_hero
-	name = "Unity Propaganda - Unity Hero"
-	desc = "This entirely unbiased piece of Unity propaganda informs the reader that the Unity are here for their protection, and that only traitors have anything to fear. You're not a traitor, are you?"
-	icon_state = "hero_en"
-/obj/structure/sign/poster/official/unity_hero/cn
-	icon_state = "hero_cn"
-
-/obj/structure/sign/poster/official/unity
-	name = "Unity Propaganda - Unity"
-	desc = "This entirely unbiased piece of Unity propaganda reminds the reader that the Unity is synonymous with the North Star."
-	icon_state = "unity"
-
-/obj/structure/sign/poster/official/unity_enlist
-	name = "Unity Propaganda - Enlist"
-	desc = "This entirely unbiased piece of Unity propaganda reminds the reader that the Unity is offering doubled corn syrup rations to those willing to fight in their name. Huh."
-	icon_state = "unity_enlist"
-
-/obj/structure/sign/poster/official/allseeing
-	name = "Unity Propaganda - Panopticon"
-	desc = "This entirely unbiased piece of Unity propaganda reminds the reader that resistance is pointless, and that the Unity has full access to the ship's surveillance systems. Nothing will escape their gaze."
-	icon_state = "allseeing"
 
 #undef PLACE_SPEED

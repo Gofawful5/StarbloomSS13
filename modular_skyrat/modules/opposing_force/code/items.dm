@@ -32,7 +32,7 @@
 	new /obj/item/clothing/shoes/combat(src)
 
 /obj/item/storage/box/edict_kit/insurgent
-	name = "Edict Insurgent Bundle"
+	name = "Syndicate Insurgent Bundle"
 	desc = "\"REMEMBER\"."
 
 /obj/item/storage/box/edict_kit/insurgent/PopulateContents()

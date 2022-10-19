@@ -86,7 +86,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 /obj/item/radio/headset/syndicate //disguised to look like a normal headset for stealth ops
 
 /obj/item/radio/headset/syndicate/alt //undisguised bowman with flash protection
-	name = "last syndicate headset"
+	name = "syndicate headset"
 	desc = "A syndicate-curated headset that can be used to hear all radio frequencies. Protects ears from flashbangs."
 	icon_state = "edict_headset"
 	inhand_icon_state = "syndie_headset"
@@ -239,11 +239,11 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	icon_state = "cargo_headset"
 	keyslot = new /obj/item/encryptionkey/headset_cargo
 
-/obj/item/radio/headset/headset_cargo/salvagecrew
+/obj/item/radio/headset/headset_cargo/miner
 	name = "salvage radio headset"
-	desc = "Headset used by salvage crew, complete with tacky antenna."
+	desc = "Headset used by shaft miners, complete with tacky antenna."
 	icon_state = "salv_headset"
-	keyslot = new /obj/item/encryptionkey/headset_salvage
+	keyslot = new /obj/item/encryptionkey/headset_mining
 
 /obj/item/radio/headset/headset_srv
 	name = "service radio headset"

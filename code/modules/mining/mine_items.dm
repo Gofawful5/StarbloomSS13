@@ -19,19 +19,19 @@
 /obj/effect/light_emitter/singularity_act()
 	return
 
-/**********************Salvage Crew Lockers**************************/
+/**********************Shaft Miner Lockers**************************/
 
-/obj/structure/closet/wardrobe/salvagecrew
+/obj/structure/closet/wardrobe/miner
 	name = "salvage wardrobe"
 	icon_door = "mixed"
 
-/obj/structure/closet/wardrobe/salvagecrew/PopulateContents()
+/obj/structure/closet/wardrobe/miner/PopulateContents()
 	new /obj/item/storage/backpack/duffelbag(src)
 	new /obj/item/storage/backpack/explorer(src)
 	new /obj/item/storage/backpack/satchel/explorer(src)
-	new /obj/item/clothing/under/rank/cargo/salvagecrew/explorer(src)
-	new /obj/item/clothing/under/rank/cargo/salvagecrew/explorer(src)
-	new /obj/item/clothing/under/rank/cargo/salvagecrew/explorer(src)
+	new /obj/item/clothing/under/rank/cargo/miner/explorer(src)
+	new /obj/item/clothing/under/rank/cargo/miner/explorer(src)
+	new /obj/item/clothing/under/rank/cargo/miner/explorer(src)
 	new /obj/item/clothing/shoes/workboots/salvage(src)
 	new /obj/item/clothing/shoes/workboots/salvage(src)
 	new /obj/item/clothing/shoes/workboots/salvage(src)
@@ -42,21 +42,21 @@
 	new /obj/item/clothing/suit/hooded/wintercoat/salvage(src)
 	new /obj/item/clothing/suit/hooded/wintercoat/salvage(src)
 
-/obj/structure/closet/secure_closet/salvagecrew
-	name = "salvage crew equipment"
+/obj/structure/closet/secure_closet/miner
+	name = "shaft miner equipment"
 	icon_state = "salvage"
-	req_access = list(ACCESS_SALVAGECREW)
+	req_access = list(ACCESS_SHAFTMINER)
 
-/obj/structure/closet/secure_closet/salvagecrew/unlocked
+/obj/structure/closet/secure_closet/miner/unlocked
 	locked = FALSE
 
-/obj/structure/closet/secure_closet/salvagecrew/PopulateContents()
+/obj/structure/closet/secure_closet/miner/PopulateContents()
 	..()
 	new /obj/item/stack/sheet/mineral/sandbags(src, 5)
 	new /obj/item/storage/box/emptysandbags(src)
 	new /obj/item/shovel(src)
 	new /obj/item/pickaxe/mini(src)
-	new /obj/item/radio/headset/headset_cargo/salvagecrew(src)
+	new /obj/item/radio/headset/headset_cargo/miner(src)
 	new /obj/item/flashlight/seclite(src)
 	new /obj/item/storage/bag/plants(src)
 	new /obj/item/storage/bag/ore(src)

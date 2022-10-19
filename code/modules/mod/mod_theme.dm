@@ -257,7 +257,7 @@
 	a heavily modified matter bin to allow reconsitution into a sphere, And a specialized module that harvests \
 	potentially biohazardous materials in Ash, Snow, and other Geological formations and converts them into kinetic \
 	energy, providing both a makeshift form of additional shielding and a boost to the wearer's speed."
-	default_skin = "asteroid" // Visually closer to the Edict theme and more fitting considering the work being done.
+	default_skin = "asteroid" // Visually closer to the Syndicate theme and more fitting considering the work being done.
 	armor = list(MELEE = 15, BULLET = 5, LASER = 5, ENERGY = 5, BOMB = 30, BIO = 100, FIRE = 100, ACID = 75, WOUND = 15)
 	resistance_flags = FIRE_PROOF|LAVA_PROOF
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
@@ -783,14 +783,15 @@
 	)
 
 /datum/mod_theme/syndicate
-	name = "last syndicate"
-	desc = "A heavily bastardized scrapping modsuit curated by the Syndicate, built for combat."
-	extended_desc = "A homebrewed combat suit adorned in a dark purple color scheme, produced \
-		for loud attacks on the North Star. The build is a streamlined layering consisting of shaped Plasteel, \
+	name = "syndicate"
+	desc = "A suit designed by Gorlex Marauders, offering armor ruled illegal in most of Spinward Stellar."
+	extended_desc = "An advanced combat suit adorned in a sinister crimson red color scheme, produced and manufactured \
+		for special mercenary operations. The build is a streamlined layering consisting of shaped Plasteel, \
 		and composite ceramic, while the under suit is lined with a lightweight Kevlar and durathread hybrid weave \
 		to provide ample protection to the user where the plating doesn't, with an illegal onboard electric powered \
-		ablative shield module to provide resistance against conventional energy firearms. It's roots as a scrapper \
-		suit are evident in general terms, but the design is much more aggressive than the original."
+		ablative shield module to provide resistance against conventional energy firearms. \
+		A small tag hangs off of it reading; 'Property of the Gorlex Marauders, with assistance from Cybersun Industries. \
+		All rights reserved, tampering with suit will void warranty."
 	default_skin = "syndicate"
 	armor = list(MELEE = 15, BULLET = 20, LASER = 15, ENERGY = 15, BOMB = 35, BIO = 100, FIRE = 50, ACID = 90, WOUND = 25)
 	atom_flags = PREVENT_CONTENTS_EXPLOSION_1
@@ -798,7 +799,7 @@
 	siemens_coefficient = 0
 	slowdown_inactive = 1
 	slowdown_active = 0.5
-	ui_theme = "lastedict"
+	ui_theme = "syndicate"
 	inbuilt_modules = list(/obj/item/mod/module/armor_booster)
 	allowed_suit_storage = list(
 		/obj/item/gun, // SKYRAT EDIT - GUN IN SUIT SLOT

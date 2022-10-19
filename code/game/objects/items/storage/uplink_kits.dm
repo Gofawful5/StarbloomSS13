@@ -40,7 +40,7 @@
 			new /obj/item/clothing/glasses/thermal/xray(src) // ~8 tc?
 			new /obj/item/storage/briefcase/launchpad(src) //6 tc
 			new /obj/item/binoculars(src) // 2 tc?
-			new /obj/item/encryptionkey/lastedict(src) // 2 tc
+			new /obj/item/encryptionkey/syndicate(src) // 2 tc
 			new /obj/item/storage/box/edict_kit/space(src) //4 tc
 			new /obj/item/grenade/frag(src) // ~2 tc each?
 			new /obj/item/grenade/frag(src)
@@ -53,7 +53,7 @@
 			new /obj/item/clothing/shoes/chameleon/noslip(src) // 2 tc
 			new /obj/item/camera_bug(src) // 1 tc
 			new /obj/item/multitool/ai_detect(src) // 1 tc
-			new /obj/item/encryptionkey/lastedict(src) // 2 tc
+			new /obj/item/encryptionkey/syndicate(src) // 2 tc
 			new /obj/item/reagent_containers/syringe/mulligan(src) // 4 tc
 			new /obj/item/switchblade(src) //I'll count this as 2 tc
 			new /obj/item/storage/fancy/cigarettes/cigpack_syndicate (src) // 2 tc this shit heals
@@ -86,14 +86,14 @@
 			new /obj/item/sbeacondrop/powersink(src)
 			new /obj/item/clothing/suit/space/syndicate/black/red(src)
 			new /obj/item/clothing/head/helmet/space/syndicate/black/red(src)
-			new /obj/item/encryptionkey/lastedict(src)
+			new /obj/item/encryptionkey/syndicate(src)
 
 		if(KIT_MURDER)
 			new /obj/item/melee/energy/sword/saber(src)
 			new /obj/item/clothing/glasses/thermal/syndi(src)
 			new /obj/item/card/emag(src)
 			new /obj/item/clothing/shoes/chameleon/noslip(src)
-			new /obj/item/encryptionkey/lastedict(src)
+			new /obj/item/encryptionkey/syndicate(src)
 			new /obj/item/grenade/edictminibomb(src)
 
 		if(KIT_IMPLANTS)
@@ -544,7 +544,7 @@
 		new /obj/item/grenade/spawnergrenade/buzzkill(src)
 
 /obj/item/storage/box/edict_kit/sleepytime/PopulateContents()
-	new /obj/item/clothing/under/tactical/purple/sleepytime(src)
+	new /obj/item/clothing/under/tactical/bloodred/sleepytime(src)
 	new /obj/item/reagent_containers/food/drinks/mug/coco(src)
 	new /obj/item/toy/plush/carpplushie(src)
 	new /obj/item/bedsheet/syndie(src)

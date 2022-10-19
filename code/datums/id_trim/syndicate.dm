@@ -1,18 +1,18 @@
-/// Trim for Edict mobs, outfits and corpses. Not chameleon.
-/datum/id_trim/lastedict
+/// Trim for Syndicate mobs, outfits and corpses. Not chameleon.
+/datum/id_trim/syndicate
 	assignment = "Syndicate Operator"
-	trim_state = "trim_edict"
-	department_color = COLOR_SYNDICATE_VIOLET
-	subdepartment_color = COLOR_SYNDICATE_VIOLET
+	trim_state = "trim_syndicate"
+	department_color = COLOR_SYNDIE_RED
+	subdepartment_color = COLOR_SYNDIE_RED
 	sechud_icon_state = SECHUD_SYNDICATE
 	access = list(ACCESS_SYNDICATE)
 
 /// Trim originally meant for forgottenship.dmm / cybersun
-/datum/id_trim/lastedict/robotics
+/datum/id_trim/syndicate/robotics
 	access = list(ACCESS_SYNDICATE, ACCESS_ROBOTICS)
 
 /// Trim originally meant for forgottenship.dmm / cybersun
-/datum/id_trim/lastedict/pilot
+/datum/id_trim/syndicate/pilot
 	assignment = "Syndicate Flightman"
 	trim_state = "trim_captain"
 	access = list(ACCESS_SYNDICATE, ACCESS_SYNDICATE_LEADER, ACCESS_ROBOTICS)
@@ -36,9 +36,9 @@
 /// Trim for Chameleon ID cards. Many outfits, nuke ops and some corpses hold Chameleon ID cards.
 /datum/id_trim/chameleon/operative
 	assignment = "Syndicate Operative"
-	trim_state = "trim_edict"
-	department_color = COLOR_SYNDICATE_VIOLET
-	subdepartment_color = COLOR_SYNDICATE_VIOLET
+	trim_state = "trim_syndicate"
+	department_color = COLOR_SYNDIE_RED
+	subdepartment_color = COLOR_SYNDIE_RED
 	sechud_icon_state = SECHUD_SYNDICATE
 
 /// Trim for Chameleon ID cards. Many outfits, nuke ops and some corpses hold Chameleon ID cards.

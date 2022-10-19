@@ -10951,7 +10951,7 @@
 	dir = 4
 	},
 /obj/machinery/firealarm/directional/south,
-/obj/structure/closet/secure_closet/salvagecrew{
+/obj/structure/closet/secure_closet/miner{
 	req_access = null;
 	req_access_txt = "201"
 	},

@@ -160,7 +160,7 @@
 	flags_cover = MASKCOVERSEYES
 
 /obj/item/clothing/mask/gas/syndicate
-	name = "last syndicate mask"
+	name = "syndicate mask"
 	desc = "A close-fitting tactical mask that can be connected to an air supply."
 	icon_state = "syndicate"
 	resistance_flags = FIRE_PROOF | ACID_PROOF

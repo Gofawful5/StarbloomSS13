@@ -8,7 +8,7 @@
 	item_type = /obj/item/melee/baseball_bat/ablative
 	description = "A highly reflective baseball bat for when you need to crack skulls and run away from security in the same night. Can reflect lasers."
 
-/// I've opted not to mark energy swords as Edict weapons. While it's most likely they'd be the ones to have them, it's not impossible for another faction to as well.
+/// I've opted not to mark energy swords as Syndicate weapons. While it's most likely they'd be the ones to have them, it's not impossible for another faction to as well.
 /// Mins should be mindful of plausibility when handing these out considering the HOS' is the only legal one on the North Star.
 /datum/opposing_force_equipment/melee/esword
 	item_type = /obj/item/melee/energy/sword
@@ -30,8 +30,8 @@
 	description = "A direct upgrade to traditional energy swords, able to trade severe stamina damage and 10u of your blood for \
 	an armor-piercing laser shot! Unfortunately, this being alien technology tends to make it obvious who's side you're truly on - \
 	and, should you lack protection, make your mind fester and boil into nothing but a raving madman."
-	admin_note = "Direct upgrade to an Energy Sword. Secondary attack Trades 25 Stamina damage and 10u blood for 15 Damage, 50% Armor Piercing Laser Shots. \
-	Only the Syndicate or their direct sympathizers would have this, and anyone without the Edict's mindshield would be driven mad. Take this all into consideration."
+	admin_note = "Direct upgrade to an Energy Sword. Secondary attack trades 25 Stamina damage and 10u blood for 15 Damage, 50% Armor Piercing Laser Shots. \
+	Only the Syndicate or their direct sympathizers would have this, and anyone without the Syndicate's mindshield would be driven mad. Take this all into consideration."
 
 /datum/opposing_force_equipment/melee/cutlass
 	item_type = /obj/item/claymore/cutlass

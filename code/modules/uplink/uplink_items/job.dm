@@ -73,7 +73,7 @@
 
 /datum/uplink_item/role_restricted/edictmmi
 	name = "Syndicate MMI"
-	desc = "An MMI modified to give cyborgs laws to serve the Lasst Edict without having their interface damaged by Cryptographic Sequencers, this will not unlock their hidden modules."
+	desc = "An MMI modified to give cyborgs laws to serve the Lasst Syndicate without having their interface damaged by Cryptographic Sequencers, this will not unlock their hidden modules."
 	progression_minimum = 10 MINUTES
 	item = /obj/item/mmi/syndicate
 	cost = 2
@@ -192,7 +192,7 @@
 	item = /obj/item/borg/upgrade/modkit/indoors
 	cost = 5 //you need two for full damage, so total of 10 for maximum damage
 	limited_stock = 2 //you can't use more than two!
-	restricted_roles = list(JOB_SALVAGE_CREW)
+	restricted_roles = list(JOB_SHAFT_MINER)
 
 /datum/uplink_item/role_restricted/mimery
 	name = "Guide to Advanced Mimery Series"

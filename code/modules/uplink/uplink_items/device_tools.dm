@@ -21,7 +21,7 @@
 /datum/uplink_item/device_tools/surgerybag
 	name = "Syndicate Surgery Toolkit"
 	desc = "This sleek, lightweight duffel bag come pre-equipped with a toolkit containing all surgery tools, surgical drapes, \
-			a Edict-Modified MMI, a straitjacket, and a muzzle."
+			a Syndicate-Modified MMI, a straitjacket, and a muzzle."
 	item = /obj/item/storage/backpack/duffelbag/syndicate/surgery
 	cost = 3
 
@@ -29,7 +29,7 @@
 	name = "Syndicate Encryption Key"
 	desc = "A key that, when inserted into a radio headset, allows you to listen to all department channels \
 			as well as talk on an encrypted Syndicate channel with other agents that have the same key."
-	item = /obj/item/encryptionkey/lastedict
+	item = /obj/item/encryptionkey/syndicate
 	cost = 2
 	surplus = 75
 	restricted = TRUE
