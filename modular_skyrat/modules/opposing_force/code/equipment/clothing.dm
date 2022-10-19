@@ -3,7 +3,7 @@
 
 /datum/opposing_force_equipment/clothing/syndiebag
 	item_type = /obj/item/storage/backpack/duffelbag/syndie
-	name = "Last Edict - Suspicious Duffelbag"
+	name = "Syndicate Suspicious Duffelbag"
 	description = "Thanks to being made from a lighter yet sturdier material, this duffelbag holds just the same as any other duffelbag without the speed penalty of its counterparts."
 
 /datum/opposing_force_equipment/clothing/vest
@@ -23,7 +23,7 @@
 	description = "A superheavy armor suit purpose-built to ensure all injuries are pushovers. WARNING: Not spaceproof."
 
 /datum/opposing_force_equipment/clothing/infiltrator
-	name = "Last Edict - Infiltrator Gear"
+	name = "Syndicate Infiltrator Gear"
 	item_type = /obj/item/storage/toolbox/infiltrator
 	description = "A box of equipment specially made for an infiltration expert, including sound-insulated boots, nanochip apprehension gloves, \
 				and a voice-masking balaclava, coming with it's own built-in diagnostics HUD. WARNING: Not spaceproof."
@@ -75,9 +75,9 @@
 	which case, go off king / queen / non-assuming but still radical royalty."
 
 /datum/opposing_force_equipment/clothing/nukiemod
-	name = "Last Edict - Purple MODsuit" // YOU MUST WEAR THE MODSUIT
+	name = "Syndicate MODsuit" // YOU MUST WEAR THE MODSUIT
 	item_type = /obj/item/mod/control/pre_equipped/nuclear
-	description = "A modified scrapper modsuit produced by the Last Edict. Offers good armor and basic modules to get the job done."
+	description = "A modified scrapper modsuit produced by the Syndicate. Offers good armor and basic modules to get the job done."
 
 /datum/opposing_force_equipment/clothing/elitemod
 	name = "Elite MODsuit"

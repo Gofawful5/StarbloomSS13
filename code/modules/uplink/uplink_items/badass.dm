@@ -49,7 +49,7 @@
 /datum/uplink_item/badass/costumes/clown
 	name = "Clown Costume"
 	desc = "Nothing is more terrifying than clowns with fully automatic weaponry."
-	item = /obj/item/storage/backpack/duffelbag/clown/edict
+	item = /obj/item/storage/backpack/duffelbag/clown/syndicate
 	purchasable_from = ALL
 	progression_minimum = 70 MINUTES
 

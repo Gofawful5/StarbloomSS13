@@ -1004,7 +1004,7 @@
 			return
 
 		var/mob/M = locate(href_list["EdictReply"])
-		usr.client.admin_headset_message(M, RADIO_CHANNEL_EDICT)
+		usr.client.admin_headset_message(M, RADIO_CHANNEL_SYNDICATE)
 
 	else if(href_list["HeadsetMessage"])
 		if(!check_rights(R_ADMIN))

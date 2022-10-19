@@ -6,9 +6,9 @@
 	description = "An electromagnetic ID card used to break machinery and disable safeties. Notorious, for good reason."
 
 /datum/opposing_force_equipment/gear/edictmag
-	name = "Last Edict Cryptographic Sequencer"
-	item_type = /obj/item/card/emag/edict
-	description = "An electromagnetic ID card used to break machinery and disable safeties. This one is brazenly Last Edict themed, \
+	name = "Syndicate Cryptographic Sequencer"
+	item_type = /obj/item/card/emag/syndicate
+	description = "An electromagnetic ID card used to break machinery and disable safeties. This one is brazenly Syndicate themed, \
 	but offers no additional benefeits."
 
 /datum/opposing_force_equipment/gear/doormag
@@ -17,7 +17,7 @@
 	description = "Identifies commonly as a \"doorjack\", this illegally modified ID card can disrupt airlock electronics. Has a self recharging cell."
 
 /datum/opposing_force_equipment/gear/etoolbox
-	item_type = /obj/item/storage/toolbox/edict
+	item_type = /obj/item/storage/toolbox/syndicate
 	description = "A fully-kitted toolbox scavenged from maintenance by our highly-paid monkeys. The toolbox \
 		itself is weighted especially to bash any head in and comes with a free pair of insulated combat gloves."
 

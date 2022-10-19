@@ -153,7 +153,7 @@
 	malf_ai.set_zeroth_law(law, law_borg)
 	malf_ai.set_edict_radio()
 
-	to_chat(malf_ai, "Your radio has been upgraded! Use :t to speak on an encrypted channel with Last Edict Agents!")
+	to_chat(malf_ai, "Your radio has been upgraded! Use :t to speak on an encrypted channel with Syndicate Agents!")
 
 	malf_ai.add_malf_picker()
 

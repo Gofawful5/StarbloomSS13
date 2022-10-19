@@ -171,7 +171,7 @@
 		return ..()
 	return FALSE
 
-/// Cyborg E-Swords, used by Last Edict Assault Cyborgs. Deducts 50 cell charge per attack.
+/// Cyborg E-Swords, used by Syndicate Assault Cyborgs. Deducts 50 cell charge per attack.
 /obj/item/melee/energy/sword/cyborg
 	name = "cyborg energy sword"
 	sword_color_icon = "red"
@@ -194,7 +194,7 @@
 		return
 	attack_self(user)
 
-/// Used by Last Edict medical cyborgs.
+/// Used by Syndicate medical cyborgs.
 /obj/item/melee/energy/sword/cyborg/saw
 	name = "energy saw"
 	desc = "For heavy duty cutting. It has a carbon-fiber blade in addition to a toggleable hard-light edge to dramatically increase sharpness."
@@ -281,10 +281,10 @@
 	block_chance = 10
 	light_color = COLOR_BLUE
 
-/// Last Edict variant of the Energy Sword. Deals stamina damage and takes blood from the user to shoot laser beams.
+/// Syndicate variant of the Energy Sword. Deals stamina damage and takes blood from the user to shoot laser beams.
 /obj/item/melee/energy/sword/bane_of_unity
 	name = "bane of unity"
-	desc = "A highly advanced hardlight sword of alien origin, made out in the signature style of the Last Edict."
+	desc = "A highly advanced hardlight sword of alien origin, made out in the signature style of the Syndicate."
 	icon_state = "baneofunity"
 	light_color = COLOR_RED
 

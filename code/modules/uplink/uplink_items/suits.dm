@@ -10,7 +10,7 @@
 
 /datum/uplink_item/suits/infiltrator_bundle
 	name = "Infiltrator Case"
-	desc = "The Last Edict's special brand of internal armor. While not spaceproof, it's an all rounder and good for more \
+	desc = "The Syndicate's special brand of internal armor. While not spaceproof, it's an all rounder and good for more \
 			subtle operations. Comes with an armor vest, helmet, sneaksuit, sneakboots, specialized combat gloves and a \
 			high-tech balaclava. The case is also rather useful as a storage container."
 	item = /obj/item/storage/toolbox/infiltrator
@@ -29,7 +29,7 @@
 // Low progression cost
 
 /datum/uplink_item/suits/modsuit
-	name = "Last Edict MODsuit"
+	name = "Syndicate MODsuit"
 	desc = "A heavily modified Scrapper Modsuit - put fear into your enemies with your mere presence! \
 			Features armoring and a set of select modules to enhance your combat capabilities."
 	item = /obj/item/mod/control/pre_equipped/traitor

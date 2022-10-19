@@ -183,11 +183,11 @@
 	set_model = /obj/item/robot_model/service
 	icon_state = "brobot"
 
-/mob/living/silicon/robot/model/edict
+/mob/living/silicon/robot/model/syndicate
 	icon_state = "edict_sec"
 	faction = list(ROLE_SYNDICATE)
 	bubble_icon = "syndibot"
-	req_access = list(ACCESS_EDICT)
+	req_access = list(ACCESS_SYNDICATE)
 	lawupdate = FALSE
 	scrambledcodes = TRUE // These are rogue borgs.
 	ionpulse = TRUE
@@ -195,15 +195,15 @@
 							<b>You are armed with powerful offensive tools to aid you in your mission: help the operatives secure the nuclear authentication disk. \
 							Your cyborg LMG will slowly produce ammunition from your power supply, and your operative pinpointer will find and locate fellow nuclear operatives. \
 							<i>Help the operatives secure the disk at all costs!</i></b>"
-	set_model = /obj/item/robot_model/edict
+	set_model = /obj/item/robot_model/syndicate
 	cell = /obj/item/stock_parts/cell/hyper
-	radio = /obj/item/radio/borg/edict
+	radio = /obj/item/radio/borg/syndicate
 
-/mob/living/silicon/robot/model/edict/proc/show_playstyle()
+/mob/living/silicon/robot/model/syndicate/proc/show_playstyle()
 	if(playstyle_string)
 		to_chat(src, playstyle_string)
 
-/mob/living/silicon/robot/model/edict/medical
+/mob/living/silicon/robot/model/syndicate/medical
 	icon_state = "edict_medical"
 	playstyle_string = "<span class='big bold'>You are a Edict medical cyborg!</span><br>\
 						<b>You are armed with powerful medical tools to aid you in your mission: help the operatives secure the nuclear authentication disk. \
@@ -213,7 +213,7 @@
 						<i>Help the operatives secure the disk at all costs!</i></b>"
 	set_model = /obj/item/robot_model/edict_medical
 
-/mob/living/silicon/robot/model/edict/saboteur
+/mob/living/silicon/robot/model/syndicate/saboteur
 	icon_state = "edict_engi"
 	playstyle_string = "<span class='big bold'>You are a Edict saboteur cyborg!</span><br>\
 						<b>You are armed with robust engineering tools to aid you in your mission: help the operatives secure the nuclear authentication disk. \
@@ -224,6 +224,6 @@
 						<i>Help the operatives secure the disk at all costs!</i></b>"
 	set_model = /obj/item/robot_model/saboteur
 
-/mob/living/silicon/robot/model/edict/kiltborg
-	set_model = /obj/item/robot_model/edict/kiltborg
+/mob/living/silicon/robot/model/syndicate/kiltborg
+	set_model = /obj/item/robot_model/syndicate/kiltborg
 	icon_state = "peace"

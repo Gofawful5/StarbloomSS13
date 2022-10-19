@@ -877,7 +877,7 @@
 /obj/machinery/airalarm/directional/east{
 	req_access = list(150)
 	},
-/obj/item/storage/backpack/duffelbag/edict/surgery,
+/obj/item/storage/backpack/duffelbag/syndicate/surgery,
 /turf/open/floor/iron/white/smooth_large,
 /area/shuttle/sbc_starfury)
 "da" = (
@@ -1202,8 +1202,8 @@
 	amount = 10;
 	pixel_x = -2
 	},
-/obj/item/storage/toolbox/edict,
-/obj/item/radio/headset/edict/alt,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/radio/headset/syndicate/alt,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/sbc_starfury)
 "dY" = (
@@ -1867,7 +1867,7 @@
 /area/shuttle/sbc_starfury)
 "gB" = (
 /obj/structure/table,
-/obj/item/storage/toolbox/edict,
+/obj/item/storage/toolbox/syndicate,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -2028,7 +2028,7 @@
 	pixel_y = -2
 	},
 /obj/item/clothing/gloves/combat,
-/obj/item/radio/headset/edict/alt{
+/obj/item/radio/headset/syndicate/alt{
 	pixel_x = -3;
 	pixel_y = 2
 	},
@@ -2921,14 +2921,14 @@
 	pixel_x = 1;
 	pixel_y = 5
 	},
-/obj/item/clothing/mask/gas/edict{
+/obj/item/clothing/mask/gas/syndicate{
 	pixel_x = 5;
 	pixel_y = 5
 	},
 /obj/item/mod/control/pre_equipped/elite{
 	pixel_x = -4
 	},
-/obj/item/clothing/mask/gas/edict,
+/obj/item/clothing/mask/gas/syndicate,
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/pod/light,
 /area/shuttle/sbc_starfury)
@@ -3447,7 +3447,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/item/storage/toolbox/edict{
+/obj/item/storage/toolbox/syndicate{
 	pixel_y = 2
 	},
 /obj/item/pipe_dispenser{
@@ -4418,7 +4418,7 @@
 /obj/effect/turf_decal/delivery,
 /obj/structure/rack,
 /obj/item/clothing/suit/space/syndicate/black/red,
-/obj/item/clothing/mask/gas/edict,
+/obj/item/clothing/mask/gas/syndicate,
 /obj/item/tank/internals/oxygen/yellow,
 /obj/item/clothing/head/helmet/space/syndicate/black/red,
 /turf/open/floor/iron/dark,

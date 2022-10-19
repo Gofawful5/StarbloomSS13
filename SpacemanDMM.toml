@@ -1,4 +1,4 @@
-environment = "tgstation.dme"
+environment = "topiastation.dme"
 
 [langserver]
 dreamchecker = true

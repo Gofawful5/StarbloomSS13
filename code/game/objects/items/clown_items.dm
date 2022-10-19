@@ -72,7 +72,7 @@
 	icon_state = "soapdeluxe"
 	cleanspeed = 2 SECONDS //captain gets one of these
 
-/obj/item/soap/edict
+/obj/item/soap/syndicate
 	desc = "An untrustworthy bar of soap made of strong chemical agents that dissolve blood faster."
 	grind_results = list(/datum/reagent/toxin/acid = 10, /datum/reagent/lye = 10)
 	icon_state = "soapedict"

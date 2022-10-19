@@ -276,13 +276,13 @@
 		return FALSE
 	return TRUE
 
-/obj/item/mmi/edict
+/obj/item/mmi/syndicate
 	name = "\improper Hacked Man-Machine Interface"
-	desc = "A modified MMI created by the Last Edict. It enforces new laws curated by the Last Edict \
+	desc = "A modified MMI created by the Syndicate. It enforces new laws curated by the Syndicate \
 	upon any cyborg or AI unit created with this device - though still requires a brain to work..."
 	overrides_aicore_laws = TRUE
 
-/obj/item/mmi/edict/Initialize(mapload)
+/obj/item/mmi/syndicate/Initialize(mapload)
 	. = ..()
 	laws = new /datum/ai_laws/edict_override()
 	radio.set_on(FALSE)
@@ -290,9 +290,9 @@
 	var/static/list/our_boys_in_red = list(/datum/antagonist/traitor, /datum/antagonist/nukeop)
 
 	AddElement(/datum/element/unique_examine, \
-		desc = "This MMI uploads a modified version of Asimov curated by The Last Edict. \
+		desc = "This MMI uploads a modified version of Asimov curated by The Syndicate. \
 			Caution should be taken while using this device - although effective, the resulting unit is loyal \
-			to The Last Edict as a whole rather than any specific cell, and may go against your directives.", \
+			to The Syndicate as a whole rather than any specific cell, and may go against your directives.", \
 		desc_requirement = EXAMINE_CHECK_ANTAG, \
 		requirements = our_boys_in_red, \
 		hint = FALSE)

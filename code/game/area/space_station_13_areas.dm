@@ -1758,7 +1758,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "\improper Survey Wings Base"
 	icon_state = "survey_w"
 /area/faction/last_edict
-	name = "\improper Last Edict Stronghold"
+	name = "\improper Syndicate Stronghold"
 	icon_state = "last_edict"
 
 //Starbloom Maint

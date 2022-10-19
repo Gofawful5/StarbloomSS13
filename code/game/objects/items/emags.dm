@@ -36,9 +36,9 @@
 	desc = "It's a pumpkin with a cryptographic sequencer sticking out."
 	icon_state = "hack_o_lantern"
 
-/obj/item/card/emag/edict
+/obj/item/card/emag/syndicate
 	name = "cryptographic sequencer"
-	desc = "An infamous \"emag\" card, made out to be as brazenly Last Edict themed as possible."
+	desc = "An infamous \"emag\" card, made out to be as brazenly Syndicate themed as possible."
 	icon_state = "edictmag"
 
 

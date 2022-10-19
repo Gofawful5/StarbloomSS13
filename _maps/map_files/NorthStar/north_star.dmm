@@ -500,7 +500,7 @@
 "afY" = (
 /obj/structure/rack/shelf,
 /obj/item/bombcore/training{
-	name = "incomplete Last Edict explosive";
+	name = "incomplete Syndicate explosive";
 	pixel_x = -6;
 	pixel_y = -2
 	},
@@ -67459,9 +67459,9 @@
 "tef" = (
 /obj/structure/window/reinforced/plasma/spawner/east,
 /obj/item/paper{
-	desc = "A paper marked with Last Edict letterhead. Hastily scrawled into the margins of the page are the letters AES. Strange.";
+	desc = "A paper marked with Syndicate letterhead. Hastily scrawled into the margins of the page are the letters AES. Strange.";
 	info = "jqfyf/kjaZUyVs6ohyMxxkCjMlW0m9mJFDVuzSgVRiuqrRT+fExNVfartrEhiAjYPVD4qeB6mdK4PzBxKa6dCKX45zqeK+uTragxiRNAPeg8/wiBqbYF18N58VE4wm5H+tdF4EHzcTNd5G/vqKrDqbYli0InpXndLhjwaAm0MsY8btmSe5XqgeiRNkrkUZvH/2bP6MiH0kcjS67qHLzoWLy0MNgivkIJrn1+exIOi2JsDL9jFcG4lcsRWbSX4Dnv8247OhQfHhW65J7xLpyzA/FzLX6hbcCyoquMS9M4bjzumXv5VZ1nLcz3yt/LEMnetZCpeKUW4qka+eNlu7KEdGSK5XMIQ5juJcq5ZmK/re/B8Hg6xlACKVjVoTXUNzfpvZpVacsqmEXaBgvkNswprZZB/MZI+9njNLyo8u7rMiW4Bgpwxi3CGL+EWmEjiWnt+nmGVd4+5AjhP743jxZ+9YmwVR3H/L/KQpUfZvLPfJp+L9a2eImpwC2h1CvLv3wMy168GVOJvzWM7I6nyMosTtK1yom88SJ61gce2zF6Jtx4nt162JZQwJbpVBR76szk/TaR96YHLU0r2wc23+6lfdlv7GbHYjkAl9fiLJYKckaQwMIB6pjZL8d8LgHFD1oVMLnCt5TZ985yS5GsnNLQxjutSoIknY2LgO/MkdnioDKretMTepQNu/rgH0Di2340";
-	name = "Last Edict Document"
+	name = "Syndicate Document"
 	},
 /turf/open/floor/pod/dark,
 /area/faction/last_edict)
@@ -73598,7 +73598,7 @@
 /obj/machinery/door/airlock/highsecurity{
 	name = "The Hole"
 	},
-/obj/effect/mapping_helpers/airlock/access/any/edict/general,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark/smooth_large,
 /area/faction/last_edict)
 "uXf" = (
@@ -74742,7 +74742,7 @@
 	pixel_y = -2
 	},
 /obj/item/cigbutt/cigarbutt{
-	desc = "A manky old cigar butt. This one is used as a sort of calling card among Last Edict agents, to mark their victims.";
+	desc = "A manky old cigar butt. This one is used as a sort of calling card among Syndicate agents, to mark their victims.";
 	name = "liberation brand cigar";
 	pixel_x = -17;
 	pixel_y = 13
@@ -78617,7 +78617,7 @@
 /obj/structure/closet/wardrobe/black,
 /obj/item/paper/fluff{
 	icon_state = "paper_talisman";
-	info = "The guys are telling me not to talk about what we saw<br>heard a few say our boss was dead<br> suicide? I'd believe it. What we saw, what the others want to do...<br> they're coming for me, silencing me, don't let them follow the edict.";
+	info = "The guys are telling me not to talk about what we saw<br>heard a few say our boss was dead<br> suicide? I'd believe it. What we saw, what the others want to do...<br> they're coming for me, silencing me, don't let them follow the syndicate.";
 	name = "Ominous Letter"
 	},
 /turf/open/floor/iron,
@@ -81234,13 +81234,13 @@
 /area/faction/survey_wings)
 "xbH" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Last Edict Interrogation Facility"
+	name = "Syndicate Interrogation Facility"
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/any/edict/general,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark/smooth_large,
 /area/faction/last_edict)
 "xbK" = (

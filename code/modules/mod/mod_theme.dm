@@ -782,9 +782,9 @@
 		),
 	)
 
-/datum/mod_theme/edict
-	name = "last edict"
-	desc = "A heavily bastardized scrapping modsuit curated by the Last Edict, built for combat."
+/datum/mod_theme/syndicate
+	name = "last syndicate"
+	desc = "A heavily bastardized scrapping modsuit curated by the Syndicate, built for combat."
 	extended_desc = "A homebrewed combat suit adorned in a dark purple color scheme, produced \
 		for loud attacks on the North Star. The build is a streamlined layering consisting of shaped Plasteel, \
 		and composite ceramic, while the under suit is lined with a lightweight Kevlar and durathread hybrid weave \

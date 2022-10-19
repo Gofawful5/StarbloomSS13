@@ -30,11 +30,11 @@
 	has_sensor = HAS_SENSORS
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 0)
 
-/obj/item/clothing/under/tactical/edict
+/obj/item/clothing/under/tactical/syndicate
 	desc = "A non-descript and slightly suspicious looking turtleneck with pitch-black cargo pants."
 	greyscale_colors = "#333333#61466a#384339"
 
-/obj/item/clothing/under/tactical/skirt/edict
+/obj/item/clothing/under/tactical/skirt/syndicate
 	desc = "A non-descript and slightly suspicious looking turtleneck with a pitch-black skirt."
 	greyscale_colors = "#333333#61466a#384339"
 
@@ -53,7 +53,7 @@
 
 /obj/item/clothing/under/tactical/purple/sleepytime
 	name = "purple pajamas"
-	desc = "Does the last edict dream of wild sheep?"
+	desc = "Does the last syndicate dream of wild sheep?"
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 50, ACID = 40)
 
 /obj/item/clothing/under/tactical/tacticool

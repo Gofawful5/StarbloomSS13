@@ -1,6 +1,6 @@
 /obj/item/grenade/edictminibomb
 	name = "EXODUS minibomb"
-	desc = "A Last Edict created explosive used to sow destruction and chaos."
+	desc = "A Syndicate created explosive used to sow destruction and chaos."
 	icon = 'icons/obj/grenade.dmi'
 	icon_state = "syndicate"
 	inhand_icon_state = "flashbang"

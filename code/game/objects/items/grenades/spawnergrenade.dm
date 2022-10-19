@@ -41,7 +41,7 @@
 
 /obj/item/grenade/spawnergrenade/syndiesoap
 	name = "Mister Scrubby"
-	spawner_type = /obj/item/soap/edict
+	spawner_type = /obj/item/soap/syndicate
 
 /obj/item/grenade/spawnergrenade/buzzkill
 	name = "Buzzkill grenade"

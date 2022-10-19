@@ -13961,7 +13961,7 @@
 	},
 /obj/effect/turf_decal/bot_white/left,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/item/storage/backpack/duffelbag/edict/hitman,
+/obj/item/storage/backpack/duffelbag/syndicate/hitman,
 /turf/open/floor/iron/dark,
 /area/ai_monitored/command/nuke_storage)
 "dOr" = (

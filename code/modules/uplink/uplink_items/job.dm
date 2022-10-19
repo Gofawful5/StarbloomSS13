@@ -72,10 +72,10 @@
 	illegal_tech = FALSE
 
 /datum/uplink_item/role_restricted/edictmmi
-	name = "Last Edict MMI"
+	name = "Syndicate MMI"
 	desc = "An MMI modified to give cyborgs laws to serve the Lasst Edict without having their interface damaged by Cryptographic Sequencers, this will not unlock their hidden modules."
 	progression_minimum = 10 MINUTES
-	item = /obj/item/mmi/edict
+	item = /obj/item/mmi/syndicate
 	cost = 2
 	restricted_roles = list(JOB_ROBOTICIST, JOB_RESEARCH_DIRECTOR, JOB_SCIENTIST, JOB_MEDICAL_DOCTOR, JOB_CHIEF_MEDICAL_OFFICER)
 	surplus = 0

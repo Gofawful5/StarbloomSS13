@@ -71,7 +71,7 @@
 	explosionSize = list(0,0,0,0)
 
 /obj/structure/closet/supplypod/extractionpod
-	name = "Last Edict Extraction Pod"
+	name = "Syndicate Extraction Pod"
 	desc = "A specalised, purple styled pod for extracting high-value targets out of active mission areas. <b>Targets must be manually stuffed inside the pod for proper delivery.</b>"
 	specialised = TRUE
 	style = STYLE_SYNDICATE

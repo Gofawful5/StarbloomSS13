@@ -105,11 +105,3 @@ Remember that, when adding new preferences, you also need to add a corresponding
 	keys_to_access = list("Free Captain Access" = ACCESS_CAPTAIN)
 
 */
-
-/datum/preference/choiced/access/bonus_access
-	savefile_identifier = PREFERENCE_CHARACTER
-	savefile_key = "bonus_access"
-	keys_to_access = list("The Unity" = ACCESS_UNITY, "The Home Guard" = ACCESS_HOME_GUARD, "Mekhane" = ACCESS_MEKHANE, "Conservators" = ACCESS_CONSERVATORS, "Chiron Biolabs" = ACCESS_CHIRON_BIOLABS)
-
-#undef NO_EXTRA_ACCESS
-#undef NO_EXTRA_ACCESS_KEY

@@ -10,25 +10,25 @@
 // No progression cost
 
 /datum/uplink_item/device_tools/soap
-	name = "Last Edict Soap"
+	name = "Syndicate Soap"
 	desc = "A sinister-looking surfactant used to clean blood stains to hide murders and prevent DNA analysis. \
 			You can also drop it underfoot to slip people."
-	item = /obj/item/soap/edict
+	item = /obj/item/soap/syndicate
 	cost = 1
 	surplus = 50
 	illegal_tech = FALSE
 
 /datum/uplink_item/device_tools/surgerybag
-	name = "Last Edict Surgery Toolkit"
+	name = "Syndicate Surgery Toolkit"
 	desc = "This sleek, lightweight duffel bag come pre-equipped with a toolkit containing all surgery tools, surgical drapes, \
 			a Edict-Modified MMI, a straitjacket, and a muzzle."
-	item = /obj/item/storage/backpack/duffelbag/edict/surgery
+	item = /obj/item/storage/backpack/duffelbag/syndicate/surgery
 	cost = 3
 
 /datum/uplink_item/device_tools/encryptionkey
-	name = "Last Edict Encryption Key"
+	name = "Syndicate Encryption Key"
 	desc = "A key that, when inserted into a radio headset, allows you to listen to all department channels \
-			as well as talk on an encrypted Last Edict channel with other agents that have the same key."
+			as well as talk on an encrypted Syndicate channel with other agents that have the same key."
 	item = /obj/item/encryptionkey/lastedict
 	cost = 2
 	surplus = 75
@@ -137,7 +137,7 @@
 	name = "Lead-Lined Toolbox"
 	desc = "This luxurious toolbox is a suspicious black and purple. It comes loaded with a full tool set; including a \
 			multitool and combat gloves that are resistant to shocks and heat. Extra hefty for any physical encounters."
-	item = /obj/item/storage/toolbox/edict
+	item = /obj/item/storage/toolbox/syndicate
 	cost = 1
 	illegal_tech = FALSE
 
@@ -177,7 +177,7 @@
 	desc = "The cryptographic sequencer, electromagnetic card, or emag, is a small card that unlocks hidden functions \
 			in electronic devices, subverts intended functions, and easily breaks security mechanisms. Cannot be used to open airlocks."
 	progression_minimum = 20 MINUTES
-	item = /obj/item/card/emag/edict
+	item = /obj/item/card/emag/syndicate
 	cost = 4
 
 /datum/uplink_item/device_tools/stimpack

@@ -70,7 +70,7 @@
 	/// If true, can say/hear on the special CentCom channel.
 	var/independent = FALSE
 	/// If true, hears all well-known channels automatically, and can say/hear on the Edict channel.
-	var/edict = FALSE
+	var/syndicate = FALSE
 	/// associative list of the encrypted radio channels this radio is currently set to listen/broadcast to, of the form: list(channel name = TRUE or FALSE)
 	var/list/channels
 	/// associative list of the encrypted radio channels this radio can listen/broadcast to, of the form: list(channel name = channel frequency)
@@ -118,8 +118,8 @@
 
 		if(keyslot.translate_binary)
 			translate_binary = TRUE
-		if(keyslot.edict)
-			edict = TRUE
+		if(keyslot.syndicate)
+			syndicate = TRUE
 		if(keyslot.independent)
 			independent = TRUE
 
@@ -131,7 +131,7 @@
 	channels = list()
 	secure_radio_connections = list()
 	translate_binary = FALSE
-	edict = FALSE
+	syndicate = FALSE
 	independent = FALSE
 
 ///goes through all radio channels we should be listening for and readds them to the global list
@@ -144,7 +144,7 @@
 /obj/item/radio/proc/make_edict() // Turns normal radios into Edict radios!
 	qdel(keyslot)
 	keyslot = new /obj/item/encryptionkey/lastedict
-	edict = TRUE
+	syndicate = TRUE
 	recalculateChannels()
 
 /obj/item/radio/interact(mob/user)
@@ -345,7 +345,7 @@
 		if(!position || !(position.z in levels))
 			return FALSE
 
-	if (input_frequency == FREQ_EDICT && !edict)
+	if (input_frequency == FREQ_SYNDICATE && !syndicate)
 		return FALSE
 
 	// allow checks: are we listening on that frequency?
@@ -353,7 +353,7 @@
 		return TRUE
 	for(var/ch_name in channels)
 		if(channels[ch_name] & FREQ_LISTENING)
-			if(GLOB.radiochannels[ch_name] == text2num(input_frequency) || edict)
+			if(GLOB.radiochannels[ch_name] == text2num(input_frequency) || syndicate)
 				return TRUE
 	return FALSE
 
@@ -503,13 +503,13 @@
 		for(var/ch_name in R.model.radio_channels)
 			channels[ch_name] = TRUE
 
-/obj/item/radio/borg/edict
-	edict = TRUE
+/obj/item/radio/borg/syndicate
+	syndicate = TRUE
 	keyslot = new /obj/item/encryptionkey/lastedict
 
-/obj/item/radio/borg/edict/Initialize(mapload)
+/obj/item/radio/borg/syndicate/Initialize(mapload)
 	. = ..()
-	set_frequency(FREQ_EDICT)
+	set_frequency(FREQ_SYNDICATE)
 
 /obj/item/radio/borg/screwdriver_act(mob/living/user, obj/item/tool)
 	if(!keyslot)

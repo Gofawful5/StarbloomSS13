@@ -1,6 +1,6 @@
 /obj/item/gun/ballistic/automatic/magrifle
 	name = "magnetic rifle"
-	desc = "An advanced magnetic rifle developed by the Last Edict capable of firing a projectile at extreme speed."
+	desc = "An advanced magnetic rifle developed by the Syndicate capable of firing a projectile at extreme speed."
 	icon_state = "magrifle"
 	force = 10
 	slot_flags = ITEM_SLOT_BACK
@@ -21,7 +21,7 @@
 
 /obj/item/gun/ballistic/automatic/magrifle/pistol
 	name = "magpistol"
-	desc = "An advanced magnetic handgun developed by the Last Edict capable of firing a projectile at extreme speed."
+	desc = "An advanced magnetic handgun developed by the Syndicate capable of firing a projectile at extreme speed."
 	icon_state = "magpistol"
 	w_class = WEIGHT_CLASS_NORMAL
 	slot_flags = ITEM_SLOT_BELT

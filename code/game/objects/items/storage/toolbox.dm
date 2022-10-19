@@ -157,20 +157,20 @@
 	else
 		new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
 
-/obj/item/storage/toolbox/edict
+/obj/item/storage/toolbox/syndicate
 	name = "suspicious looking toolbox"
-	icon_state = "edict"
+	icon_state = "syndicate"
 	inhand_icon_state = "toolbox_syndi"
 	force = 15
 	throwforce = 18
 	material_flags = NONE
 
-/obj/item/storage/toolbox/edict/ComponentInitialize()
+/obj/item/storage/toolbox/syndicate/ComponentInitialize()
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.silent = TRUE
 
-/obj/item/storage/toolbox/edict/PopulateContents()
+/obj/item/storage/toolbox/syndicate/PopulateContents()
 	new /obj/item/screwdriver/nuke(src)
 	new /obj/item/wrench(src)
 	new /obj/item/weldingtool/largetank(src)
@@ -301,7 +301,7 @@
 							/obj/item/storage/toolbox/electrical,
 							/obj/item/storage/toolbox/mechanical,
 							/obj/item/storage/toolbox/artistic,
-							/obj/item/storage/toolbox/edict)
+							/obj/item/storage/toolbox/syndicate)
 
 	if(!istype(T, /obj/item/stack/tile/iron))
 		..()
@@ -323,7 +323,7 @@
 				B.toolbox_color = "y"
 			if(/obj/item/storage/toolbox/artistic)
 				B.toolbox_color = "g"
-			if(/obj/item/storage/toolbox/edict)
+			if(/obj/item/storage/toolbox/syndicate)
 				B.toolbox_color = "s"
 		user.put_in_hands(B)
 		B.update_appearance()

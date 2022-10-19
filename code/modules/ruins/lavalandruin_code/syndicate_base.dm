@@ -3,7 +3,7 @@
 /obj/machinery/vending/syndichem
 	name = "\improper SyndiChem"
 	desc = "A vending machine full of grenades and grenade accessories. Sponsored by Donk Co."
-	req_access = list(ACCESS_EDICT)
+	req_access = list(ACCESS_SYNDICATE)
 	products = list(/obj/item/stack/cable_coil = 5,
 					/obj/item/assembly/igniter = 20,
 					/obj/item/assembly/prox_sensor = 5,
@@ -51,8 +51,8 @@
 	desc = "Your benefactors conveinently neglected to mention it's already assembled."
 	anchored = TRUE
 	radio_key = /obj/item/encryptionkey/lastedict
-	engineering_channel = "Last Edict"
-	common_channel = "Last Edict"
+	engineering_channel = "Syndicate"
+	common_channel = "Syndicate"
 	include_in_cims = FALSE
 
 /obj/machinery/power/supermatter_crystal/shard/syndicate/attackby(obj/item/item, mob/living/user, params)

@@ -64,7 +64,7 @@ export const DmTarget = new Juke.Target({
   ],
   inputs: [
     'modular_skyrat/**',
-    'starbloom_modules',
+    'topiastation_modules',
     '_maps/map_files/generic/**',
     'code/**',
     'goon/**',

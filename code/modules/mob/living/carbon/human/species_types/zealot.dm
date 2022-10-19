@@ -60,9 +60,9 @@
 	)
 
 /datum/species/zealot/get_species_description()
-	return "These things used to be human, until the Last Edict got their hands on them."
+	return "These things used to be human, until the Syndicate got their hands on them."
 
 /datum/species/zealot/get_species_lore()
 	return list(
-		"These things used to be human, until the Last Edict got their hands on them."
+		"These things used to be human, until the Syndicate got their hands on them."
 	)

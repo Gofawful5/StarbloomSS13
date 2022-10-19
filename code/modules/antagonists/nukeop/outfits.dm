@@ -1,11 +1,11 @@
 /datum/outfit/syndicate
 	name = "Syndicate Operative - Basic"
 
-	uniform = /obj/item/clothing/under/tactical/edict
+	uniform = /obj/item/clothing/under/tactical/syndicate
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/combat
 	back = /obj/item/storage/backpack/fireproof
-	ears = /obj/item/radio/headset/edict/alt
+	ears = /obj/item/radio/headset/syndicate/alt
 	l_pocket = /obj/item/modular_computer/tablet/nukeops
 	id = /obj/item/card/id/advanced/chameleon
 	belt = /obj/item/gun/ballistic/automatic/pistol
@@ -33,7 +33,7 @@
 
 /datum/outfit/syndicate/post_equip(mob/living/carbon/human/H)
 	var/obj/item/radio/R = H.ears
-	R.set_frequency(FREQ_EDICT)
+	R.set_frequency(FREQ_SYNDICATE)
 	R.freqlock = TRUE
 	if(command_radio)
 		R.command = TRUE
@@ -53,7 +53,7 @@
 	name = "Syndicate Operative - Full Kit"
 
 	glasses = /obj/item/clothing/glasses/night
-	mask = /obj/item/clothing/mask/gas/edict
+	mask = /obj/item/clothing/mask/gas/syndicate
 	back = /obj/item/mod/control/pre_equipped/nuclear
 	r_pocket = /obj/item/tank/internals/emergency_oxygen/engi
 	internals_slot = ITEM_SLOT_RPOCKET

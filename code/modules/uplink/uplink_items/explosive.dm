@@ -29,7 +29,7 @@
 /datum/uplink_item/explosives/c4bag
 	name = "Bag of C-4 explosives"
 	desc = "Because sometimes quantity is quality. Contains 10 C-4 plastic explosives."
-	item = /obj/item/storage/backpack/duffelbag/edict/c4
+	item = /obj/item/storage/backpack/duffelbag/syndicate/c4
 	progression_minimum = 20 MINUTES
 	cost = 8 //20% discount!
 	cant_discount = TRUE
@@ -40,7 +40,7 @@
 			X-4 can be placed on a solid surface, such as a wall or window, and it will blast through the wall, injuring anything on the opposite side, while being safer to the user. \
 			For when you want a controlled explosion that leaves a wider, deeper, hole."
 	progression_minimum = 30 MINUTES
-	item = /obj/item/storage/backpack/duffelbag/edict/x4
+	item = /obj/item/storage/backpack/duffelbag/syndicate/x4
 	cost = 4
 	cant_discount = TRUE
 

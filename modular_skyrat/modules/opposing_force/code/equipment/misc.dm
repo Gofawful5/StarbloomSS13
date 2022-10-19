@@ -3,8 +3,8 @@
 
 /datum/opposing_force_equipment/other/uplink
 	item_type = /obj/item/uplink/opfor
-	name = "Last Edict - Uplink"
-	description = "A Last Edict uplink with an empty TC account. \"Disguised\" as an older model station bounced radio, but will be \
+	name = "Syndicate - Uplink"
+	description = "A Syndicate uplink with an empty TC account. \"Disguised\" as an older model station bounced radio, but will be \
 	brazenly obvious to those in the know."
 
 /datum/opposing_force_equipment/other/tc1
@@ -51,7 +51,7 @@
 		perfectly aerodynamic (and potentially lethal) paper airplanes."
 
 /datum/opposing_force_equipment/other/surplus
-	name = "Last Edict - Surplus Crate"
+	name = "Syndicate - Surplus Crate"
 	item_type = /obj/effect/gibspawner/generic
 	description = "The zealots are offering a crate of surplus equipment for agents willing to take the odds. It contains a variety of useful items, \
 		but there's no guarantee any of it will be applicable to your needs. Contents equal to 50 TC."
@@ -78,7 +78,7 @@
 		new uplink_item.item(holder_crate)
 
 /datum/opposing_force_equipment/other/surplus/super
-	name = "Last Edict - Super Surplus Crate"
+	name = "Syndicate - Super Surplus Crate"
 	description = "The zealots have reserved a reserve of especially valuable items for high priority missions. While there's no guarantee \
 		any of these will be applicable to your needs, the sheer volume of items should ensure you will find at least some equipment for \
 		your personal niche, and possibly another agent's! Contents equal to 125 TC."

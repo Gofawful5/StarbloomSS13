@@ -65,7 +65,7 @@
 	slowdown_active = SHOES_SLOWDOWN
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 
-/obj/item/clothing/shoes/magboots/edict
+/obj/item/clothing/shoes/magboots/syndicate
 	desc = "Reverse-engineered magnetic boots that have a heavy magnetic pull."
 	name = "purple magboots"
 	icon_state = "syndiemag0"

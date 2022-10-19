@@ -53,7 +53,7 @@
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "ak" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/backpack/duffelbag/edict/surgery,
+/obj/item/storage/backpack/duffelbag/syndicate/surgery,
 /turf/open/floor/plastic,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "al" = (
@@ -1213,9 +1213,9 @@
 /obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
 /obj/item/clothing/gloves/combat,
 /obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/tactical/skirt/edict,
-/obj/item/clothing/under/tactical/edict,
-/obj/item/clothing/mask/gas/edict,
+/obj/item/clothing/under/tactical/skirt/syndicate,
+/obj/item/clothing/under/tactical/syndicate,
+/obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "WR" = (
@@ -1238,8 +1238,8 @@
 /obj/item/clothing/under/tactical/combat,
 /obj/item/clothing/gloves/combat,
 /obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/tactical/skirt/edict,
-/obj/item/clothing/mask/gas/edict,
+/obj/item/clothing/under/tactical/skirt/syndicate,
+/obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 

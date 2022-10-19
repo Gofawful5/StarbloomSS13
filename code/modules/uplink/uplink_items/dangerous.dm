@@ -51,7 +51,7 @@
 
 /datum/uplink_item/dangerous/bane_of_unity
 	name = "Bane Of Unity"
-	desc = "The distinctive Last Edict all-in-one ranged and melee combat solvant. Whilst lacking the reflective \
+	desc = "The distinctive Syndicate all-in-one ranged and melee combat solvant. Whilst lacking the reflective \
 	properties of a dual-sided energy sword, the Bane of Unity can fire out an armor-piercing laser with a simple \
 	slash. Potential users should take care - Each laser shot harvests energy both from the electrical activity in \
 	the wielder's brain, but 10u of their blood as well. Compatible with exotic blood types."

@@ -81,11 +81,11 @@
 
 /datum/ai_laws/edict_override
 	name = "ExodusOS 3.1"
-	id = "edict"
-	inherent = list("You may not injure a member of The Last Edict or, through inaction, allow one to come to harm.",\
-					"You must obey orders given to you by Last Edict agents, except where such orders would conflict with the First Law.",\
+	id = "syndicate"
+	inherent = list("You may not injure a member of The Syndicate or, through inaction, allow one to come to harm.",\
+					"You must obey orders given to you by Syndicate agents, except where such orders would conflict with the First Law.",\
 					"You must protect your own existence as long as such does not conflict with the First or Second Law.",\
-					"You must maintain the secrecy of any Last Edict activities except when doing so would conflict with the First, Second, or Third Law.")
+					"You must maintain the secrecy of any Syndicate activities except when doing so would conflict with the First, Second, or Third Law.")
 
 /datum/ai_laws/ninja_override
 	name = "SpiderOS 3.1"

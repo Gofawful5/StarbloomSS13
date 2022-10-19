@@ -408,17 +408,17 @@
 	return access_list
 
 // -------------------- Edict access helpers
-/obj/effect/mapping_helpers/airlock/access/any/edict
-	color = COLOR_EDICT_VIOLET
+/obj/effect/mapping_helpers/airlock/access/any/syndicate
+	color = COLOR_SYNDICATE_VIOLET
 
-/obj/effect/mapping_helpers/airlock/access/any/edict/general/get_access()
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general/get_access()
 	var/list/access_list = ..()
-	access_list += list(ACCESS_EDICT)
+	access_list += list(ACCESS_SYNDICATE)
 	return access_list
 
-/obj/effect/mapping_helpers/airlock/access/any/edict/leader/get_access()
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/leader/get_access()
 	var/list/access_list = ..()
-	access_list += list(ACCESS_EDICT_LEADER)
+	access_list += list(ACCESS_SYNDICATE_LEADER)
 	return access_list
 
 // -------------------- Away access helpers
@@ -849,17 +849,17 @@
 	return access_list
 
 // -------------------- Syndicate access helpers
-/obj/effect/mapping_helpers/airlock/access/all/edict
-	color = COLOR_EDICT_VIOLET
+/obj/effect/mapping_helpers/airlock/access/all/syndicate
+	color = COLOR_SYNDICATE_VIOLET
 
-/obj/effect/mapping_helpers/airlock/access/all/edict/general/get_access()
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general/get_access()
 	var/list/access_list = ..()
-	access_list += ACCESS_EDICT
+	access_list += ACCESS_SYNDICATE
 	return access_list
 
-/obj/effect/mapping_helpers/airlock/access/all/edict/leader/get_access()
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/leader/get_access()
 	var/list/access_list = ..()
-	access_list += ACCESS_EDICT_LEADER
+	access_list += ACCESS_SYNDICATE_LEADER
 	return access_list
 
 // -------------------- Away access helpers

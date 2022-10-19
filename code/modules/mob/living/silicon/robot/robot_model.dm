@@ -757,7 +757,7 @@
 	if(enzyme)
 		enzyme.reagents.add_reagent(/datum/reagent/consumable/enzyme, 2 * coeff)
 
-/obj/item/robot_model/edict
+/obj/item/robot_model/syndicate
 	name = "Edict Assault"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
@@ -774,12 +774,12 @@
 	model_traits = list(TRAIT_PUSHIMMUNE)
 	hat_offset = 3
 
-/obj/item/robot_model/edict/rebuild_modules()
+/obj/item/robot_model/syndicate/rebuild_modules()
 	..()
 	var/mob/living/silicon/robot/cyborg = loc
 	cyborg.faction -= "silicon" //ai turrets
 
-/obj/item/robot_model/edict/remove_module(obj/item/removed_module, delete_after)
+/obj/item/robot_model/syndicate/remove_module(obj/item/removed_module, delete_after)
 	..()
 	var/mob/living/silicon/robot/cyborg = loc
 	cyborg.faction |= "silicon" //ai is your bff now!
@@ -845,7 +845,7 @@
 	hat_offset = -4
 	canDispose = TRUE
 
-/obj/item/robot_model/edict/kiltborg
+/obj/item/robot_model/syndicate/kiltborg
 	name = "Highlander"
 	basic_modules = list(
 		/obj/item/claymore/highlander/robot,
@@ -856,17 +856,17 @@
 	breakable_modules = FALSE
 	locked_transform = FALSE //GO GO QUICKLY AND SLAUGHTER THEM ALL
 
-/obj/item/robot_model/edict/kiltborg/be_transformed_to(obj/item/robot_model/old_model)
+/obj/item/robot_model/syndicate/kiltborg/be_transformed_to(obj/item/robot_model/old_model)
 	. = ..()
 	qdel(robot.radio)
-	robot.radio = new /obj/item/radio/borg/edict(robot)
+	robot.radio = new /obj/item/radio/borg/syndicate(robot)
 	robot.scrambledcodes = TRUE
 	robot.maxHealth = 50 //DIE IN THREE HITS, LIKE A REAL SCOT
 	robot.break_cyborg_slot(3) //YOU ONLY HAVE TWO ITEMS ANYWAY
 	var/obj/item/pinpointer/nuke/diskyfinder = locate(/obj/item/pinpointer/nuke) in basic_modules
 	diskyfinder.attack_self(robot)
 
-/obj/item/robot_model/edict/kiltborg/do_transform_delay() //AUTO-EQUIPPING THESE TOOLS ANY EARLIER CAUSES RUNTIMES OH YEAH
+/obj/item/robot_model/syndicate/kiltborg/do_transform_delay() //AUTO-EQUIPPING THESE TOOLS ANY EARLIER CAUSES RUNTIMES OH YEAH
 	. = ..()
 	robot.equip_module_to_slot(locate(/obj/item/claymore/highlander/robot) in basic_modules, 1)
 	robot.equip_module_to_slot(locate(/obj/item/pinpointer/nuke) in basic_modules, 2)

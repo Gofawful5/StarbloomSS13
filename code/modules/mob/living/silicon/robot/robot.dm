@@ -86,7 +86,7 @@
 	alert_control.listener.RegisterSignal(src, COMSIG_LIVING_DEATH, /datum/alarm_listener/proc/prevent_alarm_changes)
 	alert_control.listener.RegisterSignal(src, COMSIG_LIVING_REVIVE, /datum/alarm_listener/proc/allow_alarm_changes)
 
-/mob/living/silicon/robot/model/edict/Initialize(mapload)
+/mob/living/silicon/robot/model/syndicate/Initialize(mapload)
 	. = ..()
 	laws = new /datum/ai_laws/edict_override()
 	addtimer(CALLBACK(src, .proc/show_playstyle), 5)
@@ -97,7 +97,7 @@
 	modularInterface.layer = ABOVE_HUD_PLANE
 	modularInterface.plane = ABOVE_HUD_PLANE
 
-/mob/living/silicon/robot/model/edict/create_modularInterface()
+/mob/living/silicon/robot/model/syndicate/create_modularInterface()
 	if(!modularInterface)
 		modularInterface = new /obj/item/modular_computer/tablet/integrated/syndicate(src)
 	return ..()
@@ -105,11 +105,11 @@
 /**
  * Sets the tablet theme and icon
  *
- * These variables are based on if the borg is a edict type or is emagged. This gets used in model change code
+ * These variables are based on if the borg is a syndicate type or is emagged. This gets used in model change code
  * and also borg emag code.
  */
 /mob/living/silicon/robot/proc/set_modularInterface_theme()
-	if(istype(model, /obj/item/robot_model/edict) || emagged)
+	if(istype(model, /obj/item/robot_model/syndicate) || emagged)
 		modularInterface.device_theme = "syndicate"
 		modularInterface.icon_state = "tablet-silicon-syndicate"
 		modularInterface.icon_state_powered = "tablet-silicon-syndicate"
@@ -723,7 +723,7 @@
 
 	return TRUE
 
-/mob/living/silicon/robot/model/edict/ResetModel()
+/mob/living/silicon/robot/model/syndicate/ResetModel()
 	return
 
 /mob/living/silicon/robot/proc/has_model()
@@ -858,7 +858,7 @@
 	lawupdate = TRUE
 	lawsync()
 	if(radio && AI.radio) //AI keeps all channels, including Syndie if it is a Traitor
-		if(AI.radio.edict)
+		if(AI.radio.syndicate)
 			radio.make_edict()
 		radio.subspace_transmission = TRUE
 		radio.channels = AI.radio.channels
